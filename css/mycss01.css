@@ -1,0 +1,145 @@
+  html codes  
+
+a:link
+{
+	color: rgb(51,153,255);
+}
+a:visited
+{
+	color: rgb(51,102,204); 
+} 
+a:active 
+{
+	color: rgb(255,153,0);
+}
+
+
+body
+{
+	font-family: Arial Narrow;
+	background-repeat:repeat;
+	font-size:15pt;
+	font-weight:bold;
+	background-image:url('../images/Background/314.jpg');
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+table
+{
+	font-size:15pt;
+	fout-weight:bold;
+}
+h1
+{
+	font-family: Arial Black;
+	color: #000000;
+	font-size:2.0em;
+	text-align: center;
+}
+h2
+{
+	color: #000000;
+	font-size:1.6em
+}
+.PublicationClasses {
+	text-indent: 1em;
+}
+
+.title {
+	text-align: center;
+	
+}
+h3
+{
+	color: #000066;
+	font-size: 1.4em;
+}
+h4
+{
+	color: #999900;
+	font-size: 1.2em;
+}
+h5
+{
+	color: #FF9900;
+	font-size: 1.2em;
+}
+h6
+{
+	font-size: 1.2em;
+}
+p {
+	font-size: 1em;
+	text-indent: 0;
+	text-align: justify;
+	margin: 2px;
+	padding: 4px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.menuNames {
+	font-family: "Arial Black";
+	font-size: 1em;
+}
+.menuNamesCVetc {
+	color: #999;
+	font-size: 0.8em;
+}
+ul {
+	font-size: 1em;
+}
+.PublicationPublished {
+	color: #063;
+}
+
+#EducationTable {
+	font-weight: bold;
+}
+
+#CollaboratorTable {
+	font-weight: bold;
+}
+
+#TeachingTable {
+	font-weight: bold;
+}
+#TeachingTableExplain {
+	font-weight: bold;
+	font-style:oblique;
+	font-size: 0.9em;
+}
+
+.codeR {
+	font-family: "Courier New";
+	font-size: 1em;
+	font-weight: normal;
+	text-indent: 0;
+}
+.codeResults {
+	color: #00F;
+	font-weight: bold;
+}
+.small {
+	font-size: 0.8em;
+}
+.paperTitlePreparation {
+	font-style: normal;
+	color: #906;
+}
+.descriptionText {
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	font-weight: normal;
+}
+.paperTitleSubmitted {
+	color: #C00;
+}
+.oneSentenceSummary {
+	color: #666;
+	font-style: italic;
+}
