@@ -83,7 +83,8 @@ p {
 	border-left-style: none;
 }
 
-.copyright { 
+.copyright {	 
+	text-align:center; 
 	color: #999;
 	font-size: 0.8em; 
 	}
@@ -93,6 +94,7 @@ p {
 	font-size: 1em;
 }
 .menuNamesCVetc {
+	text-align: center; 
 	color: #999;
 	font-size: 0.8em;
 }
