@@ -18,7 +18,7 @@ body
 {
 	font-family: Arial Narrow;
 	background-repeat:repeat;
-	font-size:15pt;
+	font-size:14pt;
 	font-weight:bold;
 	background-image:url('../images/Background/314.jpg');
 	border-top-style: none;
@@ -82,6 +82,12 @@ p {
 	border-bottom-style: none;
 	border-left-style: none;
 }
+
+.copyright { 
+	color: #999;
+	font-size: 0.8em; 
+	}
+	
 .menuNames {
 	font-family: "Arial Black";
 	font-size: 1em;
