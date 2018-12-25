@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Runlong Tang's Blog Article</title>
-<link href="../../css/mycss_blog.css" rel="stylesheet" type="text/css">
+<link href="../../../css/mycss_blog.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
 <!-- InstanceEndEditable -->
 <p>&nbsp;</p>
 <!-- InstanceBeginEditable name="text" -->
-<p>On Leo Breiman&rsquo;s <a href="https://www.stat.berkeley.edu/users/breiman/RandomForests/cc_software.htm">webpage</a>, we can download the source code file for the famous random forest method proposed by Leo Breiman.  The source code file is named prog.f. It was written in Fortran 77 by Leo Breiman and Adele Cutler around 2003. I tried to compile it with gfortran (version 7.3.0) but got errors. This doesn&rsquo;t mean the source file has errors. It just means there is still compatibility issue between the source file and gfortran since the authors might not test their source code with gfortran. In order to compile it successfully, we can do as follows:</p>
+<p>On Leo Breiman&rsquo;s <a href="https://www.stat.berkeley.edu/users/breiman/RandomForests/cc_software.htm" target="_blank">webpage</a>, we can download the source code file for the famous random forest method proposed by Leo Breiman.  The source code file is named prog.f. It was written in Fortran 77 by Leo Breiman and Adele Cutler around 2003. I tried to compile it with gfortran (version 7.3.0) but got errors. This doesn&rsquo;t mean the source file has errors. It just means there is still compatibility issue between the source file and gfortran since the authors might not test their source code with gfortran. In order to compile it successfully, we can do as follows:</p>
 <ol>
   <li>Find parameter(umask=-2147483648) in prog.f and replace -2147483648 with -214748364-1. It&rsquo;s related to stack overflow.</li>
   <li>Use the option -ffixed-line-length-none when compiling. That is, the compiling command is: gfortran -ffixed-line-length-none prog.f</li>
