@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:link
+{
+	color: rgb(51,153,255);
+}
+a:visited
+{
+	color: rgb(51,102,204); 
+} 
+a:active 
+{
+	color: rgb(255,153,0);
+}
+
+
+body
+{
+	font-family: "Times New Roman", Times, serif;
+	background-repeat:repeat;
+	font-size:14pt;
+	font-weight:bold;
+	background-image:url('../images/Background/314.jpg');
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+table
+{
+	font-size:15pt;
+	fout-weight:bold;
+}
+h1
+{
+	font-family: Arial Black;
+	color: #000000;
+	font-size:2.0em;
+	text-align: center;
+}
+h2
+{
+	color: #000000;
+	font-size:1.6em
+}
+
+
+h3
+{
+	color: #000066;
+	font-size: 1.4em;
+}
+h4
+{
+	color: #999900;
+	font-size: 1.2em;
+}
+h5
+{
+	color: #FF9900;
+	font-size: 1.2em;
+}
+h6
+{
+	font-size: 1.2em;
+}
+p {
+	font-size: 1em;
+	/* [disabled]text-indent: 0; */
+	text-align: justify;
+	margin: 2px;
+	padding: 4px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.blog_font {font-family:"Times New Roman", Times, serif}
