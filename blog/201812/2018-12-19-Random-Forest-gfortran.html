@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html><!-- InstanceBegin template="/Templates/blog_style.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<title>Runlong Tang's Blog Article</title>
+<link href="../../css/mycss_blog.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h2><!-- InstanceBeginEditable name="title" -->How to Compile the Random Forest Source File by Leo Breiman and Adele Cutler with gfortran<!-- InstanceEndEditable --></h2>
+<p>Runlong Tang</p>
+<!-- InstanceBeginEditable name="date" -->
+<p>2018-12-19 (Created)</p>
+<p>yyyy-mm-dd (Updated)</p>
+<!-- InstanceEndEditable -->
+<p>&nbsp;</p>
+<!-- InstanceBeginEditable name="text" -->
+<p>On Leo Breiman&rsquo;s <a href="https://www.stat.berkeley.edu/users/breiman/RandomForests/cc_software.htm">webpage</a>, we can download the source code file for the famous random forest method proposed by Leo Breiman.  The source code file is named prog.f. It was written in Fortran 77 by Leo Breiman and Adele Cutler around 2003. I tried to compile it with gfortran (version 7.3.0) but got errors. This doesn&rsquo;t mean the source file has errors. It just means there is still compatibility issue between the source file and gfortran since the authors might not test their source code with gfortran. In order to compile it successfully, we can do as follows:</p>
+<ol>
+  <li>Find parameter(umask=-2147483648) in prog.f and replace -2147483648 with -214748364-1. It&rsquo;s related to stack overflow.</li>
+  <li>Use the option -ffixed-line-length-none when compiling. That is, the compiling command is: gfortran -ffixed-line-length-none prog.f</li>
+</ol>
+<p>In this way, we get the executable file a.out. Then, we can try some data sets. The default names of training and testing data sets are data.train and data.test, respectively. They should be in the same directory or folder of the executable a.out. If we&rsquo;d like to use different names and directories for the data sets, we need to modify the source file accordingly.</p>
+<h2>&nbsp;</h2>
+<p class="blog_font">&nbsp;</p>
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>
