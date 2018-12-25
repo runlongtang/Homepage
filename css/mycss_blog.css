@@ -20,7 +20,7 @@ body
 	font-family: "Times New Roman", Times, serif;
 	background-repeat:repeat;
 	font-size:14pt;
-	font-weight:bold;
+	font-weight: normal;
 	background-image:url('../images/Background/314.jpg');
 	border-top-style: none;
 	border-right-style: none;
