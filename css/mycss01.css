@@ -1,3 +1,4 @@
+@charset "utf-8";
 
 a:link
 {
@@ -31,6 +32,7 @@ table
 	font-size:15pt;
 	fout-weight:bold;
 }
+
 h1
 {
 	font-family: Arial Black;
@@ -38,6 +40,7 @@ h1
 	font-size:2.0em;
 	text-align: center;
 }
+
 h2
 {
 	color: #000000;
@@ -50,20 +53,24 @@ h3
 	color: #000066;
 	font-size: 1.4em;
 }
+
 h4
 {
 	color: #999900;
 	font-size: 1.2em;
 }
+
 h5
 {
 	color: #FF9900;
 	font-size: 1.2em;
 }
+
 h6
 {
 	font-size: 1.2em;
 }
+
 p {
 	font-size: 1em;
 	/* [disabled]text-indent: 0; */
@@ -96,18 +103,20 @@ p {
 	font-family: "Arial Black";
 	font-size: 1em;
 }
+
 .menuNamesCVetc {
 	text-align: center; 
 	color: #999;
 	font-size: 0.8em;
 }
+
 ul {
 	font-size: 1em;
 }
+
 .PublicationPublished {
 	color: #063;
 }
-
 
 .codeR {
 	font-family: "Courier New";
@@ -115,33 +124,42 @@ ul {
 	font-weight: normal;
 	text-indent: 0;
 }
+
 .codeResults {
 	color: #00F;
 	font-weight: bold;
 }
+
 .small {
 	font-size: 0.8em;
 }
+
 .paperTitlePreparation {
 	font-style: normal;
 	color: #906;
 }
+
 .descriptionText {
 	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
 	font-weight: normal;
 }
+
 .paperTitleSubmitted {
 	color: #C00;
 }
+
 .oneSentenceSummary {
 	color: #666;
 	font-style: italic;
 }
 
 .note_finance { color:#F60 }
+
 .note_software {color:#009999 }
+
 .note_method {color:#90F }
+
 .note_data_analysis {color:#090}
 
 .blog_font {font-family:"Times New Roman", Times, serif}
@@ -157,6 +175,7 @@ ul {
 #TeachingTable {
 	font-weight: bold;
 }
+
 #TeachingTableExplain {
 	font-weight: bold;
 	font-style:oblique;
